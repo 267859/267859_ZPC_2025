@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yes ide to</title>
+    <link>https://example.org/</link>
+    <description>Recent content on Yes ide to</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Sep 2025 14:22:27 +0200</lastBuildDate>
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://example.org/posts/my-first-post/</link>
+      <pubDate>Mon, 22 Sep 2025 14:22:27 +0200</pubDate>
+      <guid>https://example.org/posts/my-first-post/</guid>
+      <description>&lt;h1 id=&#34;o-mne&#34;&gt;O mne&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://example.org/images/hah.png&#34; alt=&#34;obr&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
