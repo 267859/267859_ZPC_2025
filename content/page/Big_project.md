@@ -9,5 +9,5 @@ menu:
 ---
 
 # Vyvažovač rotačných súčastí
-![schéma](/images/schema.jpg)
+![schéma](/static/images/schema.jpg)
 Dynamický stolný vyvažovač rotačných súčastí, určený najmä pre vrtule alebo kolesá RC modelov. Na základe vybrácii pri rotácii vyhodnotí miesto kde a koľko materiálu odobrať, resp. aké závažie pridať.
