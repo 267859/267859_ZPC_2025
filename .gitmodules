@@ -7,3 +7,6 @@
 [submodule "themes/Ananke"]
 	path = themes/Ananke
 	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "themes/calligraphy"]
+	path = themes/calligraphy
+	url = https://github.com/pacollins/calligraphy.git

@@ -1,0 +1,6 @@
+<ul>
+  {{ $section := .Get "section" }}
+  {{ range where .Site.RegularPages "Section" $section }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+  {{ end }}
+</ul>

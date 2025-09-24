@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ZPC 2025 Tomáš Krompaský</title>
-    <link>https://example.org/</link>
-    <description>Recent content on ZPC 2025 Tomáš Krompaský</description>
+    <title>Pages on ZPC 2025 Tomáš Krompaský</title>
+    <link>https://example.org/page/</link>
+    <description>Recent content in Pages on ZPC 2025 Tomáš Krompaský</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 22 Sep 2025 12:00:00 +0530</lastBuildDate>
-    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Mini projekt 1 - </title>
-      <link>https://example.org/posts/mini_projekt_1/</link>
-      <pubDate>Mon, 22 Sep 2025 18:35:02 +0200</pubDate>
-      <guid>https://example.org/posts/mini_projekt_1/</guid>
-      <description></description>
-    </item>
+    <atom:link href="https://example.org/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mini projekty</title>
       <link>https://example.org/page/mini_projects/</link>
