@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on ZPC 2025 Tomáš Krompaský</title>
-    <link>https://example.org/posts/</link>
+    <link>https://267859.github.com/267859_ZPC_2025/posts/</link>
     <description>Recent content in Posts on ZPC 2025 Tomáš Krompaský</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 22 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://267859.github.com/267859_ZPC_2025/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mini projekt 1 - </title>
-      <link>https://example.org/posts/mini_projekt_1/</link>
+      <link>https://267859.github.com/267859_ZPC_2025/posts/mini_projekt_1/</link>
       <pubDate>Mon, 22 Sep 2025 18:35:02 +0200</pubDate>
-      <guid>https://example.org/posts/mini_projekt_1/</guid>
+      <guid>https://267859.github.com/267859_ZPC_2025/posts/mini_projekt_1/</guid>
       <description></description>
     </item>
   </channel>
