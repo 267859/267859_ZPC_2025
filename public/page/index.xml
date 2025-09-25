@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on ZPC 2025 Tomáš Krompaský</title>
-    <link>https://267859.github.com/267859_ZPC_2025/page/</link>
+    <link>https://267859.github.io/267859_ZPC_2025/page/</link>
     <description>Recent content in Pages on ZPC 2025 Tomáš Krompaský</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 22 Sep 2025 12:00:00 +0530</lastBuildDate>
-    <atom:link href="https://267859.github.com/267859_ZPC_2025/page/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://267859.github.io/267859_ZPC_2025/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mini projekty</title>
-      <link>https://267859.github.com/267859_ZPC_2025/page/mini_projects/</link>
+      <link>https://267859.github.io/267859_ZPC_2025/page/mini_projects/</link>
       <pubDate>Mon, 22 Sep 2025 12:00:00 +0530</pubDate>
-      <guid>https://267859.github.com/267859_ZPC_2025/page/mini_projects/</guid>
-      <description>&lt;ul&gt;&#xD;&#xA;  &#xD;&#xA;  &#xD;&#xA;    &lt;li&gt;&lt;a href=&#34;https://267859.github.com/267859_ZPC_2025/posts/mini_projekt_1/&#34;&gt;Mini projekt 1 - &lt;/a&gt;&lt;/li&gt;&#xD;&#xA;  &#xD;&#xA;&lt;/ul&gt;</description>
+      <guid>https://267859.github.io/267859_ZPC_2025/page/mini_projects/</guid>
+      <description>&lt;ul&gt;&#xD;&#xA;  &#xD;&#xA;  &#xD;&#xA;    &lt;li&gt;&lt;a href=&#34;https://267859.github.io/267859_ZPC_2025/posts/mini_projekt_1/&#34;&gt;Mini projekt 1 - &lt;/a&gt;&lt;/li&gt;&#xD;&#xA;  &#xD;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>O mne</title>
-      <link>https://267859.github.com/267859_ZPC_2025/page/about_me/</link>
+      <link>https://267859.github.io/267859_ZPC_2025/page/about_me/</link>
       <pubDate>Mon, 22 Sep 2025 12:00:00 +0530</pubDate>
-      <guid>https://267859.github.com/267859_ZPC_2025/page/about_me/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://267859.github.com/267859_ZPC_2025/static/images/ja.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ahojte! Som študent druhého ročníka na Fakulte strojného inžinierstva VUT v Brne. Túto stránku som vytvoril v rámci predmetu &lt;em&gt;&lt;strong&gt;Jak vyrobit (téměř) cokoliv&lt;/strong&gt;&lt;/em&gt; a dúfam, že moje projekty môžu poslúžiť aj ako inšpirácia pre vás.&#xA;Moje záujmy zahŕňajú šport, programovanie, konštrukciu a inovácie. Snažím sa spájať teoretické znalosti s praktickými projektmi a neustále hľadám nové spôsoby, ako byť kreatívny a efektívny pri riešení problémov.&lt;/p&gt;</description>
+      <guid>https://267859.github.io/267859_ZPC_2025/page/about_me/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://267859.github.io/267859_ZPC_2025/static/images/ja.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ahojte! Som študent druhého ročníka na Fakulte strojného inžinierstva VUT v Brne. Túto stránku som vytvoril v rámci predmetu &lt;em&gt;&lt;strong&gt;Jak vyrobit (téměř) cokoliv&lt;/strong&gt;&lt;/em&gt; a dúfam, že moje projekty môžu poslúžiť aj ako inšpirácia pre vás.&#xA;Moje záujmy zahŕňajú šport, programovanie, konštrukciu a inovácie. Snažím sa spájať teoretické znalosti s praktickými projektmi a neustále hľadám nové spôsoby, ako byť kreatívny a efektívny pri riešení problémov.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Semestrálny projekt</title>
-      <link>https://267859.github.com/267859_ZPC_2025/page/big_project/</link>
+      <link>https://267859.github.io/267859_ZPC_2025/page/big_project/</link>
       <pubDate>Mon, 22 Sep 2025 12:00:00 +0530</pubDate>
-      <guid>https://267859.github.com/267859_ZPC_2025/page/big_project/</guid>
-      <description>&lt;h1 id=&#34;vyvažovač-rotačných-súčastí&#34;&gt;Vyvažovač rotačných súčastí&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://267859.github.com/267859_ZPC_2025/static/images/schema.jpg&#34; alt=&#34;schéma&#34;&gt;&#xA;Dynamický stolný vyvažovač rotačných súčastí, určený najmä pre vrtule alebo kolesá RC modelov. Na základe vybrácii pri rotácii vyhodnotí miesto kde a koľko materiálu odobrať, resp. aké závažie pridať.&lt;/p&gt;</description>
+      <guid>https://267859.github.io/267859_ZPC_2025/page/big_project/</guid>
+      <description>&lt;h1 id=&#34;vyvažovač-rotačných-súčastí&#34;&gt;Vyvažovač rotačných súčastí&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://267859.github.io/267859_ZPC_2025/static/images/schema.jpg&#34; alt=&#34;schéma&#34;&gt;&#xA;Dynamický stolný vyvažovač rotačných súčastí, určený najmä pre vrtule alebo kolesá RC modelov. Na základe vybrácii pri rotácii vyhodnotí miesto kde a koľko materiálu odobrať, resp. aké závažie pridať.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
