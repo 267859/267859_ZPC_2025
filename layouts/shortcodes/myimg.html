@@ -1,0 +1,17 @@
+{{/* Get shortcode parameters */}}
+{{ $src := .Get "src" }}
+{{ $width := .Get "width" | default "800" }}
+{{ $alt := .Get "alt" | default "" }}
+{{ $class := .Get "class" | default "" }}
+
+{{/* Try to find the image in page resources */}}
+{{ $img := .Page.Resources.GetMatch $src }}
+
+{{ if $img }}
+  {{/* Resize only if possible */}}
+  {{ $resized := $img.Fit (printf "%sx" $width) }}
+  <img src="{{ $resized.RelPermalink }}" alt="{{ $alt }}" class="{{ $class }}" style="max-width:{{ $width }}px; height:auto; display:block; margin:1rem auto;">
+{{ else }}
+  {{/* Fallback if image isn't a page resource */}}
+  <img src="{{ $src }}" alt="{{ $alt }}" class="{{ $class }}" style="max-width:{{ $width }}px; height:auto; display:block; margin:1rem auto;">
+{{ end }}
