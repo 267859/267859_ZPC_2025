@@ -5,5 +5,5 @@ theme = "gokarna"
 
 [params]
   avatarURL = "/267859_ZPC_2025/images/avatar.png" # profile image on homepage
-  showPostsOnHomePage = "recent"    # or false if you don’t want posts listed
+  ShowPostsOnHomePage = "recent"    # or false if you don’t want posts listed
   numberOfPostsOnHomePage = 4

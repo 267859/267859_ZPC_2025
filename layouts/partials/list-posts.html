@@ -2,17 +2,12 @@
 
   {{/* Featured image */}}
   {{ with .Params.featured_image }}
-    <div class="post-image" style="border: 2px solid red; padding: 5px; background: #ffeeee;">
+    <div class="post-image">
       <a href="{{ $.Permalink }}">
-        <img src="{{ . | relURL }}" alt="{{ $.Title }}" style="max-width:200px; width:100%; height:auto; border-radius:8px; background: #fff0f0;">
+        <img src="{{ . | relURL }}" alt="{{ $.Title }}" style="max-width:200px; width:100%; height:auto; border-radius:8px;">
       </a>
     </div>
-  {{ else }}
-    <div style="border: 2px dashed orange; padding: 10px; background: #fff6e0;">
-      ⚠️ No featured_image found for this post
-    </div>
   {{ end }}
-
   {{/* Post title and optional date */}}
   <div class="post-title">
     <a href="{{ .Permalink }}" class="post-link">{{ .Title | markdownify }}</a>
