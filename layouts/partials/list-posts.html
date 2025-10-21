@@ -4,7 +4,7 @@
   {{ with .Params.featured_image }}
     <div class="post-image">
       <a href="{{ $.Permalink }}">
-        <img src="{{ . | relURL }}" alt="{{ $.Title }}" style="max-width:200px; width:100%; height:auto; border-radius:8px;">
+        <img src="{{ . | relURL }}" alt="{{ $.Title }}" style="max-width:200px; width:100%; height:auto; border-radius: 8px; ">
       </a>
     </div>
   {{ end }}
