@@ -1,7 +1,7 @@
 ---
 date: 2025-09-22T18:35:02+02:00
 # description: ""
-featured_image: "/267859_ZPC_2025/images/karton.jpg"
+featured_image: "/images/karton.jpg"
 lastmod: 2025-09-22
 showTableOfContents: false
 # tags: ["",]
