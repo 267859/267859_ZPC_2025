@@ -1,8 +1,8 @@
 ---
-date: 2025-09-22T18:35:02+02:00
+date: 2025-10-20T18:35:02+02:00
 # description: ""
 featured_image: "/267859_ZPC_2025/images/karton.jpg"
-lastmod: 2025-09-22
+lastmod: 2025-10-22
 showTableOfContents: false
 # tags: ["",]
 title: "Mini projekt 2 - Stojan pod monitor"
@@ -21,19 +21,27 @@ Dizajn – výrobok by mal pôsobiť esteticky a moderne.
 
 Po chvíli premýšľania som dospel k predbežnému návrhu: oblý podstavec, ktorý je na jednej strane rozšírený o organizér na drobnosti, gadgety a perá. Potrebnú thuosť som zaistil podporami.
 
-{{< myimg src="/267859_ZPC_2025/images/karton_navrh.png" width="500" alt="" >}}
+<iframe
+  src="https://vutbr1486.autodesk360.com/g/shares/SH28cd1QT2badd0ea72bdfd8883cb3feb271?mode=embed"
+  width="60%"
+  height="300"
+  allowfullscreen
+  style="display:inline-block; border:none;"
+  frameborder="0">
+</iframe>
+
 
 Následne som vytvoril 3D model v programe Autodesk Inventor. Z neho som exportoval obrysy dielov a rozložil ich do formátu .svg tak, aby vzniklo čo najmenej odpadu. Súbor som potom vyrezal pomocou laserovej rezačky a pridal som aj trochu gravírovania – malý motivačný nápis nikdy nezaškodí.
 {{< myimg src="/267859_ZPC_2025/images/karton_svg.png" width="500" alt="" >}}
 Po vyrezaní nasledovala finálna montáž, ktorá však neprebiehala úplne podľa predstáv – o tom však neskôr.
-| ![Karton Rez](/267859_ZPC_2025/images/karton_rez.png) | ![Karton Rozpad](/267859_ZPC_2025/images/karton_rozpad.jpg) |
-|--------------------------------------------------------|------------------------------------------------------------|
 
+| ![](/267859_ZPC_2025/images/karton_rez.png) | ![](/267859_ZPC_2025/images/karton_rozpad.jpg) |
+|--------------------------------------------------------|------------------------------------------------------------|
 
 Tu je finálny produkt:
-| ![Karton Rez](/267859_ZPC_2025/images/karton.jpg) | ![Karton Rozpad](/267859_ZPC_2025/images/karton_zprava.jpg) |
+| ![](/267859_ZPC_2025/images/karton.jpg) | ![](/267859_ZPC_2025/images/karton_zprava.jpg) |
 |--------------------------------------------------------|------------------------------------------------------------|
-| ![Karton Rez](/267859_ZPC_2025/images/karton_zlava.jpg) | ![Karton Rozpad](/267859_ZPC_2025/images/karton_grav.jpg) |
+| ![](/267859_ZPC_2025/images/karton_zlava.jpg) | ![](/267859_ZPC_2025/images/karton_grav.jpg) |
 |--------------------------------------------------------|------------------------------------------------------------|
 
 Hodnotenie splnenia požiadaviek: 2,5/3
