@@ -10,8 +10,8 @@
 {{ if $img }}
   {{/* Resize only if possible */}}
   {{ $resized := $img.Fit (printf "%sx" $width) }}
-  <img src="{{ $resized.RelPermalink }}" alt="{{ $alt }}" class="{{ $class }}" style="max-width:{{ $width }}px; height:auto; display:block; margin:1rem auto;">
+  <img src="{{ $resized.RelPermalink }}" alt="{{ $alt }}" class="{{ $class }}" style="max-width:{{ $width }}px; height:auto; display:block; margin:1rem auto;  border-radius: 20px;">
 {{ else }}
   {{/* Fallback if image isn't a page resource */}}
-  <img src="{{ $src }}" alt="{{ $alt }}" class="{{ $class }}" style="max-width:{{ $width }}px; height:auto; display:block; margin:1rem auto;">
+  <img src="{{ $src }}" alt="{{ $alt }}" class="{{ $class }}" style="max-width:{{ $width }}px; height:auto; display:block; margin:1rem auto; border-radius: 20px;">
 {{ end }}
