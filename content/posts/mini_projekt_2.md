@@ -16,7 +16,7 @@ Ako vždy som začal tvorbou 3D modelu v softvéri Autodesk Inventor, kde som vy
 
 <iframe
   src="https://vutbr1486.autodesk360.com/g/shares/SH28cd1QT2badd0ea72b43c5db9e59588a82?mode=embed"
-  width="60%"
+  width="100%"
   height="300"
   allowfullscreen
   style="display:inline-block; border:none;"

@@ -23,7 +23,7 @@ Po chvíli premýšľania som dospel k predbežnému návrhu: oblý podstavec, k
 
 <iframe
   src="https://vutbr1486.autodesk360.com/g/shares/SH28cd1QT2badd0ea72bdfd8883cb3feb271?mode=embed"
-  width="60%"
+  width="100%"
   height="300"
   allowfullscreen
   style="display:inline-block; border:none;"

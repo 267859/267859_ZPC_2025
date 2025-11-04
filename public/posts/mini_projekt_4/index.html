@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #FF4D4D;
+            --font-size: 1.1rem;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>Mini projekt 5 - Binárne hodinky</title>
+    <meta name="description" content="Piaty projekt bol zameraný na elektroniku a Arduino. Rozhodol som sa vyrobiť binárne hodiny s teplomerom.
+Elektrický obvod som navrhol tak, že som použil …">
+    <meta name="keywords" content=''>
+
+    <meta property="og:url" content="https://267859.github.io/267859_ZPC_2025/posts/mini_projekt_4/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Mini projekt 5 - Binárne hodinky">
+    <meta property="og:description" content="Piaty projekt bol zameraný na elektroniku a Arduino. Rozhodol som sa vyrobiť binárne hodiny s teplomerom.
+Elektrický obvod som navrhol tak, že som použil …">
+    <meta property="og:image" content="https://267859.github.io/267859_ZPC_2025/images/avatar.png">
+    <meta property="og:image:secure_url" content="https://267859.github.io/267859_ZPC_2025/images/avatar.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mini projekt 5 - Binárne hodinky">
+    <meta name="twitter:description" content="Piaty projekt bol zameraný na elektroniku a Arduino. Rozhodol som sa vyrobiť binárne hodiny s teplomerom.
+Elektrický obvod som navrhol tak, že som použil …">
+    <meta property="twitter:domain" content="https://267859.github.io/267859_ZPC_2025/posts/mini_projekt_4/">
+    <meta property="twitter:url" content="https://267859.github.io/267859_ZPC_2025/posts/mini_projekt_4/">
+    <meta name="twitter:image" content="https://267859.github.io/267859_ZPC_2025/images/avatar.png">
+
+    
+    <link rel="canonical" href="https://267859.github.io/267859_ZPC_2025/posts/mini_projekt_4/">
+
+    
+    <link rel="stylesheet" type="text/css" href="/267859_ZPC_2025/css/normalize.min.css" media="print">
+
+    
+    <link rel="stylesheet" type="text/css" href="/267859_ZPC_2025/css/main.min.css">
+
+    
+    <link id="dark-theme" rel="stylesheet" href="/267859_ZPC_2025/css/dark.min.css">
+
+    
+    <script src="/267859_ZPC_2025/js/bundle.min.fdbfba1e074acb7e4abbf4c94eb19abb7702489c9689a27ee5e24a2bd481e4b7.js" integrity="sha256-/b&#43;6HgdKy35Ku/TJTrGau3cCSJyWiaJ&#43;5eJKK9SB5Lc="></script>
+
+    
+    
+</head>
+<body>
+        <script>
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+        <div class="avatar">
+            <a href="https://267859.github.io/267859_ZPC_2025/">
+                <img src='/267859_ZPC_2025/images/avatar.png' alt="avatar">
+            </a>
+        </div>
+        
+
+        <div class="nav-title">
+            <a class="nav-brand" href="https://267859.github.io/267859_ZPC_2025/">ZPC 2025 Tomáš Krompaský</a>
+        </div>
+
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="https://267859.github.io/267859_ZPC_2025/page/mini_projects/" aria-label="mini_projects" > Mini projekty </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://267859.github.io/267859_ZPC_2025/page/big_project/" aria-label="big_project" > Semestrálny projekt </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://267859.github.io/267859_ZPC_2025/page/about_me/" aria-label="About_me" > O mne </a>
+            </div>
+            
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                <a aria-hidden="true" role="switch">
+                    <span class="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <span class="sr-only hamburger-menu-toggle-screen-reader-target">menu</span>
+                <a aria-checked="false" aria-labelledby="hamburger-menu-toggle" id="hamburger-menu-toggle-target" role="switch">
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="https://267859.github.io/267859_ZPC_2025/page/mini_projects/" > Mini projekty </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://267859.github.io/267859_ZPC_2025/page/big_project/" > Semestrálny projekt </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://267859.github.io/267859_ZPC_2025/page/about_me/" > O mne </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                    <a role="switch">
+                        <span class="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    <div class="post container">
+    <div class="post-header-section">
+        <h1>Mini projekt 5 - Binárne hodinky</h1>
+
+        
+
+        
+	
+	
+	
+	
+        
+
+	
+
+	
+
+	
+          <small role="doc-subtitle"></small>
+	
+
+	
+          <p class="post-date">
+              
+
+              November 4, 2025
+
+              
+          </p>
+	
+
+        <ul class="post-tags">
+          
+        </ul>
+    </div>
+
+    <div class="post-content">
+        <p>Piaty projekt bol zameraný na elektroniku a Arduino. Rozhodol som sa vyrobiť binárne hodiny s teplomerom.</p>
+<p>Elektrický obvod som navrhol tak, že som použil integrované obvody Tesla MH74193 (čítače), ktoré mi umožnili pripojiť viacero LED diód a jednoducho počítať čas. Tieto čítače totiž počítajú priamo v binárnom formáte, takže stačilo posielať impulzy každú minútu, resp. hodinu. Problém nastal pri rozsahu čítačov – jeden čítač dokáže počítať iba do 15 (4 bity), čo nestačí na 60 minút ani 24 hodín. Tento problém som vyriešil nasledovne:
+-pri hodinovom čítači som pridal samostatnú LED diódu pripojenú na pin 5, ktorá signalizovala vyššie bity (nad 16),
+-pri minútovom čítači som využil pin CA (Carry Out), ktorý vyšle impulz vždy, keď čítač prejde z 15 na 0. Tento signál som  pripojil na pin CU (Clock Up) druhého čítača, čím som dosiahol 8-bitové počítanie (pre minúty postačovalo 6 bitov).</p>
+<table>
+  <thead>
+      <tr>
+          <th><img src="/267859_ZPC_2025/images/el_vrch.jpg" width="400"></th>
+          <th><img src="/267859_ZPC_2025/images/el_schema.png" width="5200"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Výsledné zapojenie teda umožnilo počítať až do 60 minút aj 24 hodín.</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Piny Q A–D boli pripojené na LED diódy, následne cez 220 Ω rezistory do zeme.</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Piny R (Reset) boli spojené a ovládané signálom z Arduina (Pin2), aby bolo možné jednotne vynulovať všetky čítače.</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>K Arduinu bolo pripojené aj tlačidlo – jeden pin bol pripojený na 5 V, druhý cez pulldown rezistor na zem a na vstup Arduina.</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Okrem toho bol pripojený aj teplomer, ktorého stredný pin bol pripojený na analógový vstup A0.</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>
+
+
+
+
+
+
+
+
+
+  
+  <img src="/267859_ZPC_2025/images/el_cel.jpg" alt="" class="" style="max-width:500px; height:auto; display:block; margin:1rem auto; border-radius: 20px;">
+</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Program na Arduine fungoval tak, že na začiatku poslal čítačom potrebný počet impulzov, aby LED diódy zobrazovali aktuálny čas.</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Následne sa každú sekundu čas aktualizoval.</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Ak bolo stlačené tlačidlo, Arduino vynulovalo čítače, prečítalo teplotu z analógového vstupu a vyslalo príslušný počet impulzov na minútové čítače, aby zobrazilo teplotu v binárnej forme.</td>
+          <td></td>
+      </tr>
+  </tbody>
+</table>
+<div style="max-height:400px; overflow-y:auto;">
+<pre><code class="language-cpp">
+const int clear_pin = 2;
+const int clk_min_pin = 3;
+const int clk_h_pin = 4;
+const int led_pin = 5;
+const int button_pin = 6;
+<p>int sek = 0;
+int min = 53;
+int h = 20;</p>
+<p>int temp_val;
+int temp;
+bool cor_val = 1;</p>
+<p>unsigned long prev_time = 0;</p>
+<p>//funkcie zobrazenia casu
+int set_min_leds(int num){
+for(int m = 0; m &lt; num; m++){
+digitalWrite(clk_min_pin, LOW);
+delay(10);
+digitalWrite(clk_min_pin, HIGH);
+}
+}</p>
+<p>int set_h_leds(int num){
+for(int h = 0; h &lt; num; h++){
+digitalWrite(clk_h_pin, LOW);
+delay(10);
+digitalWrite(clk_h_pin, HIGH);
+}
+if(num&gt;=16){
+digitalWrite(led_pin, HIGH);
+}
+else{
+digitalWrite(led_pin, LOW);
+}
+}</p>
+<p>//funkcie pridavania casu
+int add_min(){
+digitalWrite(clk_min_pin, LOW);
+delay(10);
+digitalWrite(clk_min_pin, HIGH);
+}</p>
+<p>int add_h(){
+if(h&gt;=16){
+digitalWrite(led_pin, HIGH);
+}
+else{
+digitalWrite(led_pin, HIGH);
+}
+digitalWrite(clk_h_pin, LOW);
+delay(10);
+digitalWrite(clk_h_pin, HIGH);
+}</p>
+<p>//funkcia resetu lediek
+int res_leds(){
+digitalWrite(clear_pin, HIGH);
+delay(10);
+digitalWrite(clear_pin, LOW);
+digitalWrite(led_pin, LOW);
+}</p>
+<p>void setup() {
+pinMode(clk_min_pin, OUTPUT);
+digitalWrite(clk_min_pin, HIGH);
+pinMode(clk_h_pin, OUTPUT);
+digitalWrite(clk_h_pin, HIGH);</p>
+<p>pinMode(clear_pin, OUTPUT);</p>
+<p>pinMode(led_pin, OUTPUT);
+pinMode(button_pin, INPUT);</p>
+<p>//nahodenie pociatocneho casu
+res_leds();
+set_min_leds(min);
+set_h_leds(h);
+}</p>
+<p>void loop() {
+if((millis() - prev_time) &gt;= 1000){
+prev_time = millis();
+sek++;</p>
+<pre><code>//pridavanie casu
+if(sek &gt;= 60){
+  sek = 0;
+  min++;
+  add_min();
+}
+if(min &gt;= 60){
+  min = 0;
+  h++;
+  add_h();
+}
+if(h &gt;= 24){
+  h = 0;
+  res_leds();
+}
+
+//ukazovanie teploty
+if (digitalRead(button_pin)&amp;&amp;cor_val) {
+  res_leds();
+  temp_val = analogRead(A0);
+  temp = int((((temp_val / 1024.0) * 5.0 ) - 0.5) * 100.0);
+  set_min_leds(temp);
+  cor_val = 0;
+}
+if (!cor_val&amp;&amp;!digitalRead(button_pin)){
+  res_leds();
+  set_min_leds(min);
+  set_h_leds(h);
+  cor_val = 1;
+}
+</code></pre>
+<p>}</p>
+<p>}</p>
+<p></code></pre></p>
+</div>
+        
+    </div>
+
+    <div class="prev-next">
+        
+    </div>
+
+    
+    
+    
+</div>
+
+
+
+    
+
+        </main><footer class="footer">
+    
+    
+
+    
+
+    
+
+    
+
+    <span>
+        Made with &#10084;&#65039; using <a target="_blank" href="https://github.com/gokarna-theme/gokarna-hugo">Gokarna</a>
+    </span>
+</footer>
+</body>
+</html>
