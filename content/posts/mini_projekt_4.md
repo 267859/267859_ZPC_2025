@@ -17,12 +17,10 @@ Elektrický obvod som navrhol tak, že som použil integrované obvody Tesla MH7
 -pri minútovom čítači som využil pin CA (Carry Out), ktorý vyšle impulz vždy, keď čítač prejde z 15 na 0. Tento signál som  pripojil na pin CU (Clock Up) druhého čítača, čím som dosiahol 8-bitové počítanie (pre minúty postačovalo 6 bitov).
 | <img src="/267859_ZPC_2025/images/el_vrch.jpg" width="400"> | <img src="/267859_ZPC_2025/images/el_schema.png" width="5200"> |
 |--------------------------------------------------------|------------------------------------------------------------|
-Výsledné zapojenie teda umožnilo počítať až do 60 minút aj 24 hodín.
-Piny Q A–D boli pripojené na LED diódy, následne cez 220 Ω rezistory do zeme.
-Piny R (Reset) boli spojené a ovládané signálom z Arduina (Pin2), aby bolo možné jednotne vynulovať všetky čítače.
-K Arduinu bolo pripojené aj tlačidlo – jeden pin bol pripojený na 5 V, druhý cez pulldown rezistor na zem a na vstup Arduina.
-Okrem toho bol pripojený aj teplomer, ktorého stredný pin bol pripojený na analógový vstup A0.
+Výsledné zapojenie teda umožnilo počítať až do 60 minút aj 24 hodín.Piny Q A–D boli pripojené na LED diódy, následne cez 220 Ω rezistory do zeme.Piny R (Reset) boli spojené a ovládané signálom z Arduina (Pin2), aby bolo možné jednotne vynulovať všetky čítače.
+K Arduinu bolo pripojené aj tlačidlo – jeden pin bol pripojený na 5 V, druhý cez pulldown rezistor na zem a na vstup Arduina.Okrem toho bol pripojený aj teplomer, ktorého stredný pin bol pripojený na analógový vstup A0.
 {{< myimg src="/267859_ZPC_2025/images/el_cel.jpg" width="500" alt="" >}}
+<video src="/267859_ZPC_2025/images/el_vid.mp4" class="table-media" width="500" style="border-radius:20px;" autoplay loop muted playsinline></video>
 Program na Arduine fungoval tak, že na začiatku poslal čítačom potrebný počet impulzov, aby LED diódy zobrazovali aktuálny čas.
 Následne sa každú sekundu čas aktualizoval.
 Ak bolo stlačené tlačidlo, Arduino vynulovalo čítače, prečítalo teplotu z analógového vstupu a vyslalo príslušný počet impulzov na minútové čítače, aby zobrazilo teplotu v binárnej forme.

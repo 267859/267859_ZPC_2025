@@ -33,3 +33,4 @@ Po upravách tolerancií a pridaní dizajnových prvkov, pomocou softweru Blende
 |--------------------------------------------------------|------------------------------------------------------------|
 Tu je finálny produkt.
 {{< myimg src="/267859_ZPC_2025/images/tisk_final.jpg" width="500" alt="" >}}
+<video src="/267859_ZPC_2025/images/tisk_vid.mp4" class="table-media" style="border-radius:20px;" width="500" autoplay loop muted playsinline></video>
