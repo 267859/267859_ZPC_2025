@@ -18,3 +18,7 @@ menu:
   frameborder="0">
 </iframe>
 Dynamický stolný vyvažovač rotačných súčastí, určený najmä pre vrtule alebo kolesá RC modelov. Na základe vybrácii pri rotácii vyhodnotí miesto kde a koľko materiálu odobrať, resp. aké závažie pridať.
+{{< myimg src="/267859_ZPC_2025/images/sem_schema.png" width="500" alt="" >}}
+Celý systém bude fungovať tak, že hriadeľ, uložený na kĺbe a pružine, spolu s nevyváženým dielom, sa budú otáčať dostatoňe vysokýmy otáčkami, aby akcelerometer dokázal zachytiť vybrácie. Dáta z akcelerometra budú po meraní vyhodnotené Arduinom na základe budeného kmitania s jedným stupňom voľnosti.
+{{< myimg src="/267859_ZPC_2025/images/sem_remen.png" width="500" alt="" >}}
+Prevod točivého mementu bude zaisťovať ozubený remeň podľa shémy. Napnutie bude zaistené napinákom na pružine.

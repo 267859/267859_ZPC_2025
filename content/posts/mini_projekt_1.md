@@ -12,12 +12,9 @@ type: "post"
 Druhý projekt bol zameraný na technológiu laserového rezania, pričom úlohou bolo vytvoriť výrobok z kartónu, ktorý bude držať pokope bez použitia lepidla a bude obsahovať aspoň jeden zámok. Mojím nápadom bol stojan pod monitor.
 
 Na začiatku som si stanovil základné požiadavky:
-
-Tuhosť – stojan musí bez problémov udržať aj ťažší monitor,
-
-Funkčnosť – mal by poskytovať aj ďalší úložný priestor,
-
-Dizajn – výrobok by mal pôsobiť esteticky a moderne.
+·Tuhosť – stojan musí bez problémov udržať aj ťažší monitor,
+·Funkčnosť – mal by poskytovať aj ďalší úložný priestor,
+·Dizajn – výrobok by mal pôsobiť esteticky a moderne.
 
 Po chvíli premýšľania som dospel k predbežnému návrhu: oblý podstavec, ktorý je na jednej strane rozšírený o organizér na drobnosti, gadgety a perá. Potrebnú thuosť som zaistil podporami.
 

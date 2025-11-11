@@ -13,8 +13,10 @@ type: "post"
 Štvrtý projekt bol zameraný na technológiu 3D skenovania, konkrétne pomocou laserového optického skenera. Mojou úlohou bolo naskenovať 5-litrovú PET fľašu.
 {{< myimg src="/267859_ZPC_2025/images/scan_pred.jpg" width="500" alt="" >}}
 Najskôr som pripravil povrch skenovaného objektu – keďže PET fľaša je priehľadná, musel som ju nastriekať matným skenovacím sprejom. Následne som na jej povrch náhodne rozmiestnil nalepovacie body. Takto pripravený objekt som umiestnil na skenovací otočný stolík spolu s kalibračnými kockami s bodmi.
-| ![](/267859_ZPC_2025/images/scan_strek.jpg) | ![](/267859_ZPC_2025/images/scan_scan.jpg) |
-|--------------------------------------------------------|------------------------------------------------------------|
+<div style="display:flex; align-items:center; gap:8px;">
+  <img src="/267859_ZPC_2025/images/scan_strek.jpg" width="300">
+  <img src="/267859_ZPC_2025/images/scan_scan.jpg" width="300">
+</div>
 Skener som nastavil na režim pre veľké priehľadné objekty (hustota bodov 0,5 mm, expozícia 5 ms) a začal som so skenovaním. Najskôr som nasnímal referenčné body a potom samotnú fľašu z dvoch strán. Po dokončení som tieto dva skeny zlepil a odstránil pozadie.
 Naskenovaný model som ďalej spracovával v softvéri GOM Inspect, kde som najprv zredukoval polygónovú sieť, následne ju vyhladil a odstránil diery.
 <iframe
@@ -30,3 +32,4 @@ Potom som pokračoval meraním maximálnych rozmerov. Meranie som realizoval pom
 
 | ![](/267859_ZPC_2025/images/scan_vysledky.png) | ![](/267859_ZPC_2025/images/scan_roviny.png) |
 |--------------------------------------------------------|------------------------------------------------------------|
+<a href="/267859_ZPC_2025/images/ZPC_flasa.ginspect" download>Stiahnuť GOM súbor</a>

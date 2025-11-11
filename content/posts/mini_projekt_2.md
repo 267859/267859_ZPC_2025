@@ -22,7 +22,7 @@ Ako vždy som začal tvorbou 3D modelu v softvéri Autodesk Inventor, kde som vy
   style="display:inline-block; border:none;"
   frameborder="0">
 </iframe>
-
+{{< myimg src="/267859_ZPC_2025/images/tisk_slice.png" width="500" alt="" >}}
 Následne som model naslicoval v Prusa slicery, nastavil výšku vrstvy 0,2mm, použil organické podpory, potom som na 3D tlačiarni vytlačil prototyp, na ktorom som otestoval jednotlivé uloženia. Prototyp však nespĺňal moje požiadavky, pretože „krtkovia“ vypadávali z vodiacich dier (pozri obrázok).
 | ![](/267859_ZPC_2025/images/tisk_prototyp.jpg) | ![](/267859_ZPC_2025/images/tisk_rozpad.jpg) |
 |--------------------------------------------------------|------------------------------------------------------------|
